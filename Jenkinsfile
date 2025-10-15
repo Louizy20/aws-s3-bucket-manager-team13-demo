@@ -4,9 +4,9 @@ pipeline {
   options { timestamps() }   // keep simple; removed ansiColor
 
   environment {
-    AWS_REGION     = 'us-east-1'          // change if needed
-    BUCKET_PREFIX  = 'etech-main-bucket'  // make globally unique
-    IAM_USER_BASE  = 'etech-writer'       // base IAM username
+    AWS_REGION     = 'eu-north-1'          // change if needed
+    BUCKET_PREFIX  = 'etech-main-S3-bucket'  // make globally unique
+    IAM_USER_BASE  = 'Pivadga-etech-writer'       // base IAM username
   }
 
   stages {
