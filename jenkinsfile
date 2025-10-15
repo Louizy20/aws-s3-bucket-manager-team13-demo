@@ -6,7 +6,7 @@ pipeline {
   environment {
     AWS_REGION     = 'eu-north-1'          // change if needed
     BUCKET_PREFIX  = 'etech-main-s3-bucket-demo'  // make globally unique
-    IAM_USER_BASE  = 'Pivadga-etech-writer'       // base IAM username
+    IAM_USER_BASE  = 'Pivadga-etech-v1-writer'       // base IAM username
   }
 
   stages {
